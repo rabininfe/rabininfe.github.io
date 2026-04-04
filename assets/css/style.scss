@@ -1,0 +1,36 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Мягкий сепийный фон для всей страницы
+body {
+    background-color: #f4ecd8 !important; // Мягкий кремово-бежевый
+    // Альтернативный вариант: #e8dcca (чуть темнее)
+}
+
+// Фон для карточек с лекциями и основного контента
+.wrapper {
+    background-color: #faf7f0 !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); // Лёгкая тень для глубины
+}
+
+// Цвет текста — делаем чуть мягче, чтобы не резал глаза
+body, p, li, .post-content {
+    color: #3b3b3b !important; // Тёмно-серый, а не чёрный
+}
+
+// Заголовки — можно сделать чуть насыщеннее
+h1, h2, h3, h4, h5, h6 {
+    color: #5c4b2a !important; // Приятный коричневатый оттенок
+}
+
+// Ссылки (чтобы выделялись, но не ярко)
+a {
+    color: #8b6946 !important;
+    text-decoration: none;
+    &:hover {
+        color: #a57c52 !important;
+        text-decoration: underline;
+    }
+}
