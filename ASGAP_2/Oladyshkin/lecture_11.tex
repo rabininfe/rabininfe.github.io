@@ -1,0 +1,126 @@
+\documentclass[14pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage{extsizes}
+
+\usepackage[left=25mm, top=20mm, right=10mm, bottom=20mm, nohead, nofoot]{geometry}
+\hoffset=-5mm
+\voffset=5mm
+
+\usepackage{graphicx}
+\graphicspath{{./img}}
+
+\begin{document}
+	
+	\textbf{Лекция 10}
+	
+	\vspace{2mm}  % небольшой отступ после заголовка
+	
+	\includegraphics[scale=0.3]{img_2}
+	
+	\begin{equation}
+		U_{\text{внутр}} + \frac{p}{\rho} = \text{const}
+	\end{equation}
+	
+	\begin{equation}
+		U_{\text{внутр}} = U_{\text{т}} + \frac{v^{2}}{2} + gh
+	\end{equation}
+	
+	Энтропия:
+	\begin{equation}
+		I = U_{\text{т}} + pV
+	\end{equation}
+	
+	\begin{equation}
+		i = \frac{I}{m} = \hat{U}_{\text{т}} + \frac{pV}{m}, \quad \text{где } \frac{pV}{m} = \frac{p}{\rho}
+	\end{equation}
+	
+	Следовательно,
+	\begin{equation}
+		i + \frac{v^{2}}{2} + gh = \text{const}
+	\end{equation}
+	
+	\begin{itemize}
+		\item Дж.-Томсон: \( v \approx 0 \), \( \Delta h \approx 0 \) \( \Rightarrow \) \( i = \text{const} \)
+		\item \( \Delta U_{\text{т}} \approx 0 \), \( \Delta h \approx 0 \) \( \Rightarrow \) \( \frac{v^{2}}{2} + \frac{p}{\rho} = \text{const} \), \( v \uparrow \) \( \Rightarrow \) \( p \downarrow \)
+	\end{itemize}
+	
+	Второе начало термодинамики:
+	
+	\textbf{Клаузиуса:} Невозможна самопроизвольная\textsuperscript{*} передача тепла\textsuperscript{**} от менее нагретого тела к более нагретому.
+	
+	\vspace{0.2cm}
+	\noindent
+	\textsuperscript{*}без изменения в других телах
+	
+	\noindent
+	\textsuperscript{**}независимо от способа теплопередачи
+	
+	\textbf{Томсона (Планка):} Невозможен циклический процесс единственным результатом которого является совершение работы за счет уменьшения тепловой энергии какого-либо тела.
+	\pagebreak
+	
+	Пример:
+	
+	\includegraphics[scale=0.3]{img_1}
+	
+	\begin{equation}
+		\Delta U_{0} = 0 \Rightarrow A_{0} = Q = Q_{\text{н}} - Q_{\text{х}}
+	\end{equation}
+	
+	\begin{equation}
+		\eta \stackrel{\text{def}}{=} \frac{A}{Q_{\text{н}}} = \frac{Q_{\text{н}} - Q_{\text{х}}}{Q_{\text{н}}}
+	\end{equation}
+	
+	Если \( Q_{\text{х}} = 0 \), то \( \eta = 100\% \) \(\leftarrow \) "вечный двигатель 2го рода"
+	
+	Доказательство эквивалентности:
+	
+	1. Клаузиус \( \Rightarrow \) Т. - П. от противного, пусть существует вечный двигатель 2го рода
+	
+	\includegraphics[scale=0.3]{img_3}
+	
+	Итог: \(Q \) от тела с \(T_{1}\) перешло к телу с \(T_{2} > T{1} \) противоречие ч.т.д.
+	
+	2. Т. - П. \( \Rightarrow \) Клаузиус от противного: циклический процесс, в котором тело получает \(Q_{\text{н}}\) от тела с \(T_{\text{н}}\) и отдает \(Q_{\text{х}}\) телу с \(T_{\text{х}}\)
+	
+	Приведем в тепловой контакт холодильник и нагреватель так, чтобы холодильник отдал тепло \(Q_{\text{х}}\) 
+	
+	Тогда:
+	\begin{equation}
+		\begin{cases}
+			Q_{\text{н}} = Q_{\text{н}} - Q_{\text{х}}
+			\\
+			Q_{\text{х}} = 0
+			\\
+			A = Q_{\text{н}} - Q_{\text{х}}
+		\end{cases}
+	\end{equation}
+	это вечный двигатель второго рода (Perpetuum mobile II) что невозможно ч.т.д.
+	
+	\textbf{Об обратимости ТД процессов}
+	
+	Обратимый процесс - такой процесс, что система может вернуться в исходное состояние А без изменения в других телах.
+	
+	В узком смысле обратимый процесс - такой процесс, что система может вернуться в исходное состояние А через туже последовательность состояний.
+	
+	\(\forall\) квазистатический процесс обратим в узком смысле
+	
+	\includegraphics[scale=0.3]{img_4}
+	
+	Необратимые процессы (примеры):
+	\begin{itemize}
+		\item химическая реакция
+		\item теплопередача
+		\item диффузия
+		\item расширение газа в вакууме
+	\end{itemize}
+	
+	\textbf{Цикл Карно и Теорема Карно}
+	\begin{equation}
+		\eta = \frac{Q_{\text{н}} - Q_{\text{х}}}{Q_{\text{н}}} = \frac{A}{Q_{\text{н}}}
+	\end{equation}
+	\underline{Теорема Карно:}
+	\(\eta = \eta(T_{\text{н}}, T_{\text{х}})\). КПД Цикла Карно зависит только от \(T_{\text{н}}\) и \(T_{\text{х}}\) и не зависит от природы рабочего тела и устройства тепловой машины.
+\end{document}
