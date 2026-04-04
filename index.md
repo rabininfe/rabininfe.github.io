@@ -5,7 +5,7 @@
 ## 📚 Лекции по физике
 
 *   [Лекция 1: Механика](ASGAP_2/Oladyshkin/lecture_11.pdf)
-*   [Лекция 2: Кинематика](ASGAP_2/Oladyshkin/lecture_11.tex)
+*   [Лекция 2: Кинематика](ASGAP_2/Oladyshkin/lecture_11.pdf)
 *   [Лекция 3: Динамика](/lekciya3-dinamika.pdf)
 
 ## 📖 Лекции по математике
