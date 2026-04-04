@@ -4,11 +4,30 @@
 
 ## 📚 Лекции по физике
 
-*   [Лекция 1: Механика](/lekciya1-mehanika.pdf)
-*   [Лекция 2: Кинематика](/lekciya2-kinematika.pdf)
-*   [Лекция 3: Динамика](/lekciya3-dinamika.pdf)
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 30px;">
+  <div style="background: #f0ede4; padding: 15px; border-radius: 12px; flex: 1; min-width: 150px;">
+    <strong>📖 Лекция 1</strong><br>
+    <a href="/lekciya1-mehanika.pdf">Механика</a>
+  </div>
+  <div style="background: #f0ede4; padding: 15px; border-radius: 12px; flex: 1; min-width: 150px;">
+    <strong>📖 Лекция 2</strong><br>
+    <a href="/lekciya2-kinematika.pdf">Кинематика</a>
+  </div>
+  <div style="background: #f0ede4; padding: 15px; border-radius: 12px; flex: 1; min-width: 150px;">
+    <strong>📖 Лекция 3</strong><br>
+    <a href="/lekciya3-dinamika.pdf">Динамика</a>
+  </div>
+</div>
 
 ## 📖 Лекции по математике
 
-*   [Лекция 1: Пределы](/matematika-predely.pdf)
-*   [Лекция 2: Производные](/matematika-proizvodnye.pdf)
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <div style="background: #f0ede4; padding: 15px; border-radius: 12px; flex: 1; min-width: 150px;">
+    <strong>📐 Лекция 1</strong><br>
+    <a href="/matematika-predely.pdf">Пределы</a>
+  </div>
+  <div style="background: #f0ede4; padding: 15px; border-radius: 12px; flex: 1; min-width: 150px;">
+    <strong>📐 Лекция 2</strong><br>
+    <a href="/matematika-proizvodnye.pdf">Производные</a>
+  </div>
+</div>
