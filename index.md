@@ -13,7 +13,7 @@
 *   [Лекция 1: Несобственные интегралы](ASGAP_2/malkin/malkin-lecture-1.pdf)
 *   [Лекция 2: Несобственные интегралы](ASGAP_2/malkin/malkin-lecture-2.pdf)
 *   [Лекция 3: Несобственные интегралы](ASGAP_2/malkin/malkin-lecture-3.pdf)
-*   [Лекция 4: Пространство $R^n$](ASGAP_2/malkin/malkin-lecture-4.pdf)
+*   [Лекция 4: Пространство $\mathbb{R}^n$](ASGAP_2/malkin/malkin-lecture-4.pdf)
 *   [Лекция 5: Несобственные интегралы](ASGAP_2/malkin/malkin-lecture-5.pdf)
 *   [Лекция 6: Несобственные интегралы](ASGAP_2/malkin/malkin-lecture-6.pdf)
 *   [Лекция 7: Несобственные интегралы](ASGAP_2/malkin/malkin-lecture-7.pdf)
